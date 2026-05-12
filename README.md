@@ -8,6 +8,9 @@
 
 **贪食蛇** - 一个简洁优雅的 iOS 贪食蛇游戏
 
+<img width="1080" height="2134" alt="wecom-temp-145217-d9c7b99f3efb55a6fe1272c3b5fdb69b" src="https://github.com/user-attachments/assets/48ce2cb8-08be-4a50-8cd1-e9cbd04dd85c" />
+
+
 [功能特点](#功能特点) • [快速开始](#快速开始) • [项目结构](#项目结构) • [开发指南](#开发指南) • [更新日志](#更新日志)
 
 </div>
