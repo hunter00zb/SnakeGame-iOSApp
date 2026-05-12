@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>贪食蛇</title>
+    <link rel="icon" href="/assets/favicon-DBLo-MOa.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" crossorigin href="/assets/index-1IsNFpAl.css">
+  </head>
+  <body>
+    <div class="app">
+      <header class="header">
+        <h1>贪食蛇</h1>
+        <div class="stats">
+          <span class="stat">得分 <strong id="score">0</strong></span>
+          <span class="stat">最高 <strong id="highScore">0</strong></span>
+        </div>
+      </header>
+
+      <div class="board-wrap" id="boardWrap">
+        <canvas id="game" width="600" height="600" aria-label="游戏画布"></canvas>
+        <div id="overlay" class="overlay">
+          <p class="overlay-rules">吃到红色食物变长；四壁可穿越，只有咬到自己时游戏结束。</p>
+          <p class="overlay-title" id="overlayTitle">点击开始</p>
+          <p class="overlay-hint" id="overlayHint">滑动屏幕移动</p>
+          <button type="button" id="startBtn" class="btn">开始游戏</button>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <p>制作者：贪食蛇游戏开发团队 © 2025</p>
+    </footer>
+    <script src="bundle.js"></script>
+  </body>
+</html>

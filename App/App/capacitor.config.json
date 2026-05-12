@@ -1,0 +1,9 @@
+{
+	"appId": "com.snakegame.app",
+	"appName": "贪食蛇",
+	"webDir": "dist",
+	"ios": {
+		"path": "../贪食蛇 iosAPP"
+	},
+	"packageClassList": []
+}

@@ -1,13 +1,21 @@
-App/build
-App/Pods
-App/output
-App/App/public
-DerivedData
-xcuserdata
+# Build products
+DerivedData/
+DerivedData2/
+*.ipa
+*.xcarchive
+build/
 
-# Cordova plugins for Capacitor
-capacitor-cordova-ios-plugins
+# CocoaPods
+Pods/
+Podfile.lock
 
-# Generated Config files
-App/App/capacitor.config.json
-App/App/config.xml
+# Xcode
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+project.xcworkspace/xcuserdata/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
