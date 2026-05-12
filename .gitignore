@@ -1,21 +1,159 @@
-# Build products
-DerivedData/
-DerivedData2/
-*.ipa
-*.xcarchive
-build/
-
-# CocoaPods
-Pods/
-Podfile.lock
+# ====================
+# Swift
+# ====================
 
 # Xcode
 *.xcuserstate
 *.xcworkspace/xcuserdata/
 project.xcworkspace/xcuserdata/
+*.xcuserdatad/
+*.xcuserdatadx/
+*.moved-aside
+Default.xcuserstate
+*.mode1
+*.mode1v3
+*.mode2v3
+*.mode3v3
+*.perspective
+*.perspectivev3
+*.pbxuser
+!default.pbxuser
+*.xccheckout
+*.xcscmblueprint
+*.xcworkspacedata
+*.index
+*.indexscheme
+
+# Derived data
+DerivedData/
+DerivedData2/
+
+# Build products
+build/
+*.ipa
+*.xcarchive
+*.dSYM.zip
+*.dSYM
+!default.dSYM
+
+# Packages
+Packages/
+*.pkg
+*.swiftsourceinfo
+
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# ====================
+# CocoaPods
+# ====================
+
+Pods/
+Podfile.lock
+*.xcworkspace
+!*.xcworkspace.sample
+
+# ====================
+# Platform
+# ====================
 
 # macOS
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# VIM
+*.swp
+*.swo
+*~
+.#*
+
+# Emacs
+*.\#*
+\#*\#
+.*\#
 
 # Logs
 *.log
+logs/
+
+# ====================
+# Mobile Development
+# ====================
+
+# Android
+.gradle/
+local.properties
+.idea/
+*.iml
+build/
+captures/
+*.ap_
+*.aab
+
+# iOS
+*.mobileprovision
+*.entitlements
+
+# Capacitor
+node_modules/
+www/
+
+# ====================
+# Environment
+# ====================
+
+.env
+.env.local
+.env.*.local
+*.local
+.envrc
+
+# ====================
+# Misc
+# ====================
+
+*.bak
+*.backup
+*.old
+*.orig
+*.orig.*
+*_BAK_*
+*_BACKUP_*
+*_ORIGINAL_*
+*_PROTOTYPE_*
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/
+
+# ====================
+# Temporary Files
+# ====================
+
+*.tmp
+*.temp
+*.cache
+*.lock
+*.pid
+*.seed
+*.CoverageHelper_*
+*.ABI.json
+*.hmap
