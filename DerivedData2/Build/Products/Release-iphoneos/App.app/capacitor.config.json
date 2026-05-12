@@ -1,0 +1,6 @@
+{
+	"appId": "com.snakegame.app",
+	"appName": "贪食蛇",
+	"webDir": "dist",
+	"packageClassList": []
+}
